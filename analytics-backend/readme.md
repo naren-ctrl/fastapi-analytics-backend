@@ -2,7 +2,7 @@
 
 A high-performance website analytics event ingestion system built with FastAPI. This backend service captures analytics events at high volume and provides aggregated reporting APIs.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Build a backend service to:
 - Capture website analytics events with extremely fast response times
@@ -13,7 +13,7 @@ Build a backend service to:
 **Time Limit:** 4 hours  
 **Status:** ✅ Completed
 
-## 🏗️ Architecture
+##  Architecture
 
 ### System Design
 
@@ -42,7 +42,7 @@ Build a backend service to:
 - ✅ Simple, maintainable code
 - ✅ Meets all performance requirements
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -66,7 +66,7 @@ Build a backend service to:
 - API: `http://localhost:8000`
 - Interactive Docs: `http://localhost:8000/docs`
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Interactive Documentation
 - **Swagger UI:** `http://localhost:8000/docs`
@@ -129,8 +129,7 @@ curl "http://localhost:8000/stats?site_id=site-abc-123&date=2025-11-15"
 }
 
 
-
-## 🧪 Testing
+##  Testing
 
 ### Using Interactive Docs (Recommended)
 
@@ -153,7 +152,7 @@ curl "http://localhost:8000/stats?site_id=site-test"
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 analytics-backend/
 ├── app/
@@ -188,7 +187,7 @@ analytics-backend/
 
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework:** FastAPI 0.115.0
 - **Server:** Uvicorn (ASGI)
@@ -196,7 +195,7 @@ analytics-backend/
 - **Validation:** Pydantic
 - **Async Processing:** FastAPI BackgroundTasks
 
-## 🎨 Design Decisions
+##  Design Decisions
 
 1. **SQLite over PostgreSQL**: Quick setup, portable, identical schema makes PostgreSQL migration trivial
 
@@ -206,14 +205,14 @@ analytics-backend/
 
 4. **202 Status Code**: Indicates async processing, follows RESTful best practices
 
-## ⚡ Performance
+##  Performance
 
 - **Ingestion Response Time:** ~400ms
 - **Background Processing:** Non-blocking database writes
 - **Concurrent Requests:** Handles high volume efficiently
 - **Database Queries:** Optimized with composite indexes
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Redis for distributed deployments
 - Authentication/API keys
@@ -223,6 +222,7 @@ analytics-backend/
 - Data retention policies
 - PostgreSQL migration
 
-## 👤 Author
+##  Author
+
 
 **[Narendar V]**  
